@@ -1,0 +1,325 @@
+.apptoll_side_nav {
+  background-color: rgba(245, 247, 249, 1);
+  min-height: 100vh;
+  height: 100%;
+  padding-left: 12%;
+
+  width: max(300px, ((100vw - 965px) / 2) - 0px);
+}
+.colBorder {
+  border: 1px solid rgba(211, 220, 228, 1);
+  height: 100vh;
+  border-bottom-color: transparent;
+  border-left-color: rgba(211, 220, 228, 1);
+  border-right-color: rgba(211, 220, 228, 1);
+  border-top-color: transparent;
+}
+.nav-link {
+  font-size: 14px;
+  color: rgba(136, 153, 168, 1);
+  padding: 5px;
+}
+
+.copyline {
+  padding: 40px 0 0 20px;
+}
+.header_links {
+  height: 60px;
+  display: flex;
+  justify-content: end;
+  padding-left: 24px;
+  padding-right: 24px;
+  width: max(300px, ((100vw - 910px) / 2) - 0px);
+  /* background-color: white !important; */
+}
+.searchBox {
+  background-color: rgba(245, 247, 249, 1);
+  border: none;
+}
+.SecBxSet {
+  width: max(
+    220px,
+    (
+        (((100vw - max(300px, ((100vw - 910px) / 2) - 0px)) - 750px) - 80px) -
+          (-320px)
+      ) - 0px
+  );
+}
+.searchIcon {
+  padding-top: 10px;
+}
+.searchBox:hover {
+  border: none;
+}
+.btnSec {
+  color: rgba(92, 105, 117, 1);
+  background-color: transparent;
+  border: none;
+}
+.btn-check:focus .btn,
+.btn:focus {
+  background-color: white;
+  color: black;
+  box-shadow: none !important;
+}
+.btn:hover {
+  color: black;
+  background-color: white;
+  border-color: none;
+}
+.lineSet {
+  margin-left: 20px;
+  width: 1px;
+  height: 40px;
+  background-color: rgba(211, 220, 228, 1);
+}
+.lineSetRight {
+  margin-right: 20px;
+  width: 1px;
+  height: 40px;
+  background-color: rgba(211, 220, 228, 1);
+}
+.lineRight {
+  height: max-content;
+  border-left: 2px solid rgba(211, 220, 228, 1);
+  padding-left: 20px;
+}
+.accLineSet {
+  height: max-content;
+  border-left: 2px solid rgba(211, 220, 228, 1);
+  padding-left: 20px;
+}
+.SwappingLine {
+  height: max-content;
+  border-left: 2px solid rgba(211, 220, 228, 1);
+  padding-left: 20px;
+}
+.FundingLine {
+  height: max-content;
+  border-left: 2px solid rgba(211, 220, 228, 1);
+  padding-left: 20px;
+}
+.titleName {
+  margin-top: 5px;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+}
+.IconTitle {
+  text-transform: uppercase;
+  line-height: 18px;
+  letter-spacing: 1.2px;
+  font-size: 12px;
+  font-weight: 700;
+  color: rgba(136, 153, 168, 1);
+}
+/* .titleIcon {
+  margin-right: 30px;
+  width: 40px;
+  height: 40px;
+  justify-content: center;
+
+  background-color: rgba(245, 247, 249, 1);
+  border-radius: 5px;
+  box-shadow: inset 0px 0px 1px rgb(0 0 0 / 30%);
+} */
+.playTitle {
+  padding-top: 24px;
+  padding-left: 1rem;
+  font-size: 48px;
+  font-weight: 700;
+  /* line-height: 56px; */
+  color: rgba(59, 69, 78, 1);
+}
+
+.navbarBorder {
+  box-shadow: 0px 4px 10px rgb(0 0 0 / 5%);
+  z-index: 1;
+  border-bottom: 1px solid rgba(211, 220, 228, 1);
+}
+
+.SubTilteBorder {
+  border-bottom: 1px solid rgba(211, 220, 228, 1);
+  margin-left: 30px;
+}
+.data {
+  font-size: 16px;
+  padding-left: 25px;
+}
+.intro {
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 18px;
+  color: rgba(136, 153, 168, 1);
+  padding-top: 50px;
+  letter-spacing: 1.2px;
+}
+/* background-color: rgba(245,247,249,1.00); */
+
+.dropdownMenuset {
+  background: rgba(245, 247, 249, 1) !important;
+}
+.list-group {
+  --bs-list-group-border-color: none !important;
+}
+.accordion-item {
+  background-color: transparent !important;
+}
+.accordion {
+  --bs-accordion-bg: transparent !important;
+  --bs-accordion-border-color: none !important;
+}
+.accordion-button:focus {
+  background-color: rgb(236, 239, 241) !important;
+}
+.nav-link:focus,
+.nav-link:hover {
+  color: rgba(92, 105, 117, 1) !important;
+  padding: 5px;
+  background-color: rgb(236, 239, 241) !important;
+}
+
+.accordion-button:not(.collapsed) {
+  color: transparent;
+  background-color: transparent;
+}
+
+.accordion-button {
+  padding: 15px 5px !important;
+}
+
+.accordion-body {
+  padding: 5px !important;
+}
+.NavIntro {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 22px;
+}
+.NavIntro:focus {
+  border: 1px solid;
+  border-bottom-color: rgba(211, 220, 228, 1);
+  border-left-color: rgba(211, 220, 228, 1);
+  border-right-color: transparent;
+  border-top-color: rgba(211, 220, 228, 1);
+  background-color: white !important;
+}
+.accordion-button::after {
+  background-size: 15px !important;
+}
+.AccText {
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 22px;
+}
+.battlePass {
+  padding: 10px 0 0 0;
+}
+.accordion-button:focus {
+  z-index: 3;
+  /* border-color: var(--bs-accordion-btn-focus-border-color); */
+  outline: 0;
+  box-shadow: none !important;
+}
+.intTitle {
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 56px;
+  color: rgba(59, 69, 78, 1);
+}
+.subTitle {
+  color: rgba(136, 153, 168, 1);
+  font-size: 16px;
+  line-height: 24px;
+}
+.border-bottom {
+  border-bottom: 1px solid #9098ae !important;
+}
+.BattleTitle {
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 56px;
+  margin-left: 45px;
+}
+.pageLink {
+  font-size: 15px;
+  text-decoration: none;
+  color: rgba(136, 153, 168, 1);
+}
+.hrset {
+  margin-left: 50px;
+  margin-top: 30px;
+}
+@media screen and (max-width: 1440px) {
+  .hrset {
+    margin-left: 0px;
+    margin-top: 0px;
+  }
+  .apptoll_side_nav {
+    padding-left: 2.5%;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .apptoll_side_nav {
+    width: max(285px, ((100vw - 966px) / 2) - 0px);
+  }
+  .lineRight {
+    padding-left: 0;
+  }
+  .copyline {
+    padding: 60px 0 0 10px;
+  }
+  .SubTilteBorder {
+    margin-left: 8px;
+  }
+  .data {
+    padding-left: 8px;
+  }
+  .lineRightNone {
+    display: none;
+  }
+  .hrset {
+    margin-left: 0px;
+    margin-top: 0px;
+  }
+  .copyline {
+    padding: 40px 0 0 10px;
+  }
+  .intTitle {
+    font-size: 40px;
+  }
+  .playTitle {
+    font-size: 40px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .intTitle {
+    font-size: 35px;
+    line-height: 40px;
+  }
+  .copyline {
+    padding: 30px 0 0 10px;
+  }
+  .playTitle {
+    font-size: 35px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .slideTab {
+    display: none;
+  }
+  .navbarSlideLine {
+    display: none;
+  }
+  .intro {
+    padding-left: 15px;
+    padding-top: 15px;
+  }
+  .navbar-brand {
+    padding: 10px 0px 0 10px;
+  }
+  .pageLink {
+    font-size: 20px;
+  }
+}
+/*  */

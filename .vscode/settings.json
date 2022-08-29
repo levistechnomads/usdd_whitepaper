@@ -1,0 +1,7 @@
+{
+    "screencastMode.verticalOffset": 0,
+    "editor.autoClosingDelete": "always",
+    "screencastMode.fontSize": 20,
+    "screencastMode.keyboardOverlayTimeout": 500,
+    "workbench.editor.enablePreviewFromQuickOpen": true
+}
